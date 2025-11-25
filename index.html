@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Shop</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eef7ff;
+            margin: 0;
+        }
+        header {
+            background-color: #4da6ff;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            background: #b3ddff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #003d66;
+            font-weight: bold;
+        }
+        .section {
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            width: 250px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #3399ff;
+            border: none;
+            color: white;
+            padding: 8px;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            background: #4da6ff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Simple Shop</h1>
+</header>
+
+<nav>
+    <a href="#products">Products</a>
+    <a href="#cart">Cart</a>
+</nav>
+
+<div class="section" id="products">
+    <h2>Our Products</h2>
+
+    <div class="product">
+        <img src="https://agent-images.githubusercontent.com/image/f2745b0a-65c4-4d3a-af5a-3ed763bfd964" alt="T-shirt">
+        <h3>Casual T-shirt</h3>
+        <p>₹299</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://agent-images.githubusercontent.com/image/ffac1d8b-4032-43c5-97f5-e0b682c52e01" alt="Headphones">
+        <h3>Headphones</h3>
+        <p>₹999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://agent-images.githubusercontent.com/image/f247bb65-705c-47ca-8e5d-e8a0fa38c7a3" alt="Handmade Craft">
+        <h3>Wooden Craft</h3>
+        <p>₹499</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<div class="section" id="cart">
+    <h2>Your Cart</h2>
+    <p>No items added yet.</p>
+</div>
+
+<footer>
+    © 2025 Simple Shop
+</footer>
+
+</body>
+</html>
